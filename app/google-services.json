@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "795783329742",
+    "firebase_url": "https://mlearning-3d4ca.firebaseio.com",
+    "project_id": "mlearning-3d4ca",
+    "storage_bucket": "mlearning-3d4ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795783329742:android:277e529a5517bbc7a7dd9f",
+        "android_client_info": {
+          "package_name": "com.example.parkingvehicle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795783329742-d3s08gfts9h47a94tna6sobkvv8qrr2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkingvehicle",
+            "certificate_hash": "48e1047d540cf3d2d2ec84f38a6fcb3b86732886"
+          }
+        },
+        {
+          "client_id": "795783329742-7qfklqva6hqbcar4nv5ri07ppbu75d27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-SXZshMQnd1jpVRFBbhUs7Ia3tQddpYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795783329742-7qfklqva6hqbcar4nv5ri07ppbu75d27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logonfc"
+        android:layout_width="184dp"
+        android:layout_height="236dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/icon_nfc_reader" />
+
+    <TextView
+        android:id="@+id/contentXera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logonfc"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/NFC"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_ThongBaoKiemLieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contentXera"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Kiểm Liệu</string>
+    <string name="accountLogin">Tên đăng nhập</string>
+    <string name="txtPass">Mật khẩu</string>
+    <string name="txtPassw">098*******</string>
+    <string name="txtTag">Have any question ?</string>
+    <string name="btnLogin">Đăng nhập</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+    <string name="sayHello" >Xin chào, <p/></string>
+    <string name="confirm">Xác nhận</string>
+    <string name="platenumber">Biển số xe</string>
+    <string name="vehicle">Loại xe</string>
+    <string name="namedriver">Tên tài xế</string>
+    <string name="identitycard">CMND/GPLX</string>
+    <string name="delivery_received">Giao/Nhận</string>
+    <string name="port">Cổng</string>
+    <string name="note">Ghi chú</string>
+    <string name="scanRFID">Quét thẻ từ</string>
+    <string name="Logout">Đăng xuất</string>
+    <string name="ChosseDay">Chọn ngày</string>
+    <string name="Continue">Tiếp tục</string>
+    <string name="Config">Cấu hình</string>
+    <string name="error">Error</string>
+    <string name="NFC">Áp thẻ từ vào mặt lưng của điện thoại</string>
+    <string name="no_nfc">No NFC found on this device</string>
+    <string name="scaleticketcode">Mã phiếu cân</string>
+    <string name="Inhout">Giờ vào</string>
+    <string name="TapChat">Trừ tạp chất</string>
+    <string name="TruTapChat">Trừ KG</string>
+    <string name="TruPhanTram">Trừ %</string>
+    <string name="PhanBo">Phân bổ trọng lượng hàng</string>
+    <string name="SaLan">Sà lan</string>
+    <string name="Cont1">Xe 1 Cont</string>
+    <string name="Cont2">Xe 2 Cont</string>
+    <string name="XeThuong">Xe thường</string>
+    <string name="ThemMoi">Thêm mới</string>
+    <string name="Luu">Lưu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_nfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange">
+
+        <TextView
+            android:id="@+id/toolbarTitle_nfc"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Do Some Thing"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/btnBackReadNFC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ImageView
+        android:id="@+id/logonfc"
+        android:layout_width="150dp"
+        android:layout_height="176dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_nfc_reader" />
+
+    <TextView
+        android:id="@+id/tv_Content"
+        android:layout_below="@+id/logonfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="@string/NFC"/>
+    <TextView
+        android:id="@+id/tv_ThongBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_Content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorRed"/>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Theme1" parent="Theme.Design.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+     <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+  <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="windowActionBar">false</item>
+      <item name="windowNoTitle">true</item>
+  </style>
+
+
+
+    <style name="Toolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorBlue</item>
+    </style>
+</resources>

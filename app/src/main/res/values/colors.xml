@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c1">#65c69d</color>
+    <color name="c2">#666f78</color>
+    <color name="c3">#353e47</color>
+
+    <color name="colorOrange">#EB7F24</color>
+    <color name="maulone">#EB7F24</color>
+    <color name="colorToolbar">#2196F3</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorNav">#2D85F0</color>
+    <color name="colorNavTransparent">#aaa</color>
+    <color name="tabSelectedIndicator">#FFFFFF</color>
+    <color name="colorBlue">#2444F8</color>
+    <color name="colorPrimaryGrayBackground">#E9EBEE</color>
+</resources>

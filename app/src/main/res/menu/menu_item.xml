@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp_1">
+        <item
+            android:id="@+id/nav_0"
+            android:icon="@drawable/ic_action_name"
+            android:title="Xe vào" />
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/ic_action_name"
+            android:title="Xe ra" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/ic_credit_card_black_24dp"
+            android:title="Danh sách xe" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
+            android:title="Cấu hình"/>
+
+    </group>
+   <group android:id="@+id/grp_2">
+    <!--<item
+       android:id="@+id/nav_5"
+       android:icon="@drawable/ic_accessibility_black_24dp"
+       android:title="Quản lí nhân viên" />
+   <item
+       android:id="@+id/nav_6"
+       android:icon="@drawable/ic_show_chart_black_24dp"
+       android:title="Doanh thu tổng" />
+   <item
+       android:id="@+id/nav_7"
+       android:icon="@drawable/ic_account_box_black_24dp"
+       android:title="Đăng xuất" />-->
+    </group>
+</menu>

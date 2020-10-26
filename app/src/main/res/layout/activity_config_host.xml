@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/vas_logo" />
+    <TextView
+        android:id="@+id/tv_Title"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cấu hình IP"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edt_ip"
+        android:layout_below="@+id/tv_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttonshape3"
+        android:gravity="center"
+        android:hint="Nhập cmm vào đây"/>
+    <TextView
+        android:id="@+id/showDialog"
+        android:layout_below="@+id/edt_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorRed"/>
+    <Button
+        android:id="@+id/btn_Test"
+        android:layout_below="@id/showDialog"
+        android:layout_width="150dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/colorWhite"
+        android:text="Test"/>
+    <Button
+        android:id="@+id/btn_Confirm"
+        android:layout_below="@id/btn_Test"
+        android:layout_width="150dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:text="Xác nhận"/>
+
+</RelativeLayout>
