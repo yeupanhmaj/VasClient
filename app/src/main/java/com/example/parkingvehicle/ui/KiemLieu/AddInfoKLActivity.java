@@ -274,10 +274,10 @@ public class AddInfoKLActivity extends AppCompatActivity {
         data.Note = note;
 
         btnSave.setOnClickListener(v -> {
-            data.TruKg = Integer.parseInt(edt_TruKG.getText().toString());
-            data.TruPhanTram = Integer.parseInt(edt_TruPhanTram.getText().toString());
-            Log.d("TAG","" + data.TruKg);
-            Log.d("TAG","" + data.TruPhanTram);
+            //data.TruKg = Integer.parseInt(edt_TruKG.getText().toString());
+            //data.TruPhanTram = Integer.parseInt(edt_TruPhanTram.getText().toString());
+            //Log.d("TAG","" + data.TruKg);
+            //Log.d("TAG","" + data.TruPhanTram);
         });
         btnSaveTemp.setOnClickListener(v -> {
             //listPO.get(i).;

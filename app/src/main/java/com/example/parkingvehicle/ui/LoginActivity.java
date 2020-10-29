@@ -26,6 +26,9 @@ import com.example.parkingvehicle.ui.BaoVe.ConfigActivity;
 import com.example.parkingvehicle.ui.BaoVe.MainActivity;
 import com.example.parkingvehicle.ui.KiemLieu.KLMainActivity;
 import com.google.gson.Gson;
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -42,6 +45,8 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        AppCenter.start(getApplication(), "2a6653c2-dcc0-4eb0-84aa-c528e8ae6f44",
+                Analytics.class, Crashes.class);
         TranferData tranferData = TranferData.getInstance(LoginActivity.this);
         Url = tranferData.getData("Dev", WareHouse.UrlOrgin);
         WareHouse.Url = Url;
